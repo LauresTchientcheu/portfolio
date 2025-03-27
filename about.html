@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .about-container h2 {
+            color: #0056b3;
+        }
+
+        .about-container p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>À Propos</h1>
+    </header>
+    <div class="about-container">
+        <h2>Qui suis-je ?</h2>
+        <p>Passionné par la technologie et l’innovation, je suis spécialisé dans la gestion de projets techniques.</p>
+        <p>Mon objectif est d'exploiter mon expertise pour créer des solutions innovantes et efficaces dans divers domaines.</p>
+    </div>
+    <a href="index.html">Retour à l'accueil</a>
+</body>
+</html>
